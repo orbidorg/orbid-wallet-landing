@@ -24,13 +24,13 @@ export default function Home() {
     }
 
     return (
-        <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-12 pb-24 sm:pb-12 overflow-hidden">
+        <main className="relative min-h-screen flex flex-col items-center px-4 py-8 sm:py-12 overflow-hidden">
             {/* Background Glow Effects - with pulse animation */}
             <div className="gradient-glow absolute top-1/4 left-1/4 w-96 h-96 rounded-full -z-10" />
             <div className="gradient-glow absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full -z-10" style={{ animationDelay: '2s' }} />
 
             {/* Content Container */}
-            <div className="flex flex-col items-center gap-10 max-w-4xl w-full">
+            <div className="flex flex-col items-center gap-8 sm:gap-10 max-w-4xl w-full flex-grow justify-center">
 
                 {/* Logo */}
                 <div className="flex items-center gap-3 animate-fade-in-up">
@@ -67,11 +67,11 @@ export default function Home() {
                     href="https://worldcoin.org/mini-app?app_id=app_920c1c9a0cb3aaa68e626f54c09f3cf9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-gradient inline-flex items-center gap-3 px-8 py-4 rounded-full text-white font-semibold text-lg shadow-lg animate-fade-in-up-delay-4"
+                    className="btn-gradient inline-flex items-center gap-2 sm:gap-3 px-5 sm:px-8 py-3 sm:py-4 rounded-full text-white font-semibold text-sm sm:text-lg shadow-lg animate-fade-in-up-delay-4"
                 >
                     {/* World Chain Icon */}
                     <svg
-                        className="w-6 h-6"
+                        className="w-5 h-5 sm:w-6 sm:h-6"
                         viewBox="0 0 138 138"
                         fill="currentColor"
                     >
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
 
             {/* Footer */}
-            <footer className="mt-12 text-center text-white/30 text-sm">
+            <footer className="mt-auto pt-6 pb-4 text-center text-white/30 text-xs sm:text-sm">
                 © {new Date().getFullYear()} OrbId Labs. {t.footer.copyright}
             </footer>
         </main>
