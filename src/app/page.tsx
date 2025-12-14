@@ -16,7 +16,7 @@ export default function Home() {
     // Show nothing while loading to prevent flash
     if (!isLoaded) {
         return (
-            <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-12 overflow-hidden">
+            <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-12 pb-24 sm:pb-12 overflow-hidden">
                 <div className="gradient-glow absolute top-1/4 left-1/4 w-96 h-96 rounded-full -z-10" />
                 <div className="gradient-glow absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full -z-10" style={{ animationDelay: '2s' }} />
             </main>
@@ -24,7 +24,7 @@ export default function Home() {
     }
 
     return (
-        <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-12 overflow-hidden">
+        <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-12 pb-24 sm:pb-12 overflow-hidden">
             {/* Background Glow Effects - with pulse animation */}
             <div className="gradient-glow absolute top-1/4 left-1/4 w-96 h-96 rounded-full -z-10" />
             <div className="gradient-glow absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full -z-10" style={{ animationDelay: '2s' }} />
@@ -64,7 +64,7 @@ export default function Home() {
 
                 {/* CTA Button - animated gradient */}
                 <a
-                    href="https://worldcoin.org/mini-app?app_id=app_63712013adb7fb3e851b2260c6571ba6"
+                    href="https://worldcoin.org/mini-app?app_id=app_920c1c9a0cb3aaa68e626f54c09f3cf9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-gradient inline-flex items-center gap-3 px-8 py-4 rounded-full text-white font-semibold text-lg shadow-lg animate-fade-in-up-delay-4"
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
 
             {/* Footer */}
-            <footer className="absolute bottom-4 text-center text-white/30 text-sm">
+            <footer className="mt-12 text-center text-white/30 text-sm">
                 © {new Date().getFullYear()} OrbId Labs. {t.footer.copyright}
             </footer>
         </main>

@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🌐 OrbId Wallet Landing
+<img src="public/logo.svg" alt="OrbId Wallet" width="120" />
+
+# OrbId Wallet Landing
 
 **Modern landing page for OrbId Wallet mini-app on World App**
 
@@ -10,7 +12,7 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-FF0055?logo=framer)](https://www.framer.com/motion/)
 [![World Chain](https://img.shields.io/badge/World_Chain-480-000000?logo=world)](https://worldcoin.org/)
 
-[Live Demo](https://landing.orbidwallet.com) · [OrbId Wallet](https://worldcoin.org/mini-app?app_id=app_63712013adb7fb3e851b2260c6571ba6)
+[Website](https://orbidwallet.com) · [OrbId Wallet](https://worldcoin.org/mini-app?app_id=app_920c1c9a0cb3aaa68e626f54c09f3cf9)
 
 </div>
 
@@ -43,9 +45,6 @@
 ## 🚀 Quick Start
 
 ```bash
-# Clone the repository
-git clone https://github.com/orbidorg/orbid-wallet-landing.git
-
 # Install dependencies
 npm install
 
@@ -73,40 +72,24 @@ src/
     └── translations.ts   # i18n dictionaries
 ```
 
-## 🎨 Design System
-
-### Colors
-
-| Name | Value | Preview |
-|------|-------|---------|
-| OrbId Pink | `#ec4899` | ![#ec4899](https://via.placeholder.com/20/ec4899/ec4899.png) |
-| OrbId Purple | `#8b5cf6` | ![#8b5cf6](https://via.placeholder.com/20/8b5cf6/8b5cf6.png) |
-| Cosmic Orange | `#D96C33` | ![#D96C33](https://via.placeholder.com/20/D96C33/D96C33.png) |
-
-### Animations
-
-- **Fade-in Staggered** — Elements appear sequentially (0.8s)
-- **Gradient Shift** — Infinite color cycling (2-4s loop)
-- **Pulse Glow** — Background breathing effect (4s loop)
-
 ## 📦 Tech Stack
 
 - **Framework:** Next.js 16 with App Router
 - **UI:** React 19 + TailwindCSS 4
 - **Animations:** Framer Motion 12
 - **Language:** TypeScript 5
-- **Deployment:** Vercel / Cloudflare Pages
+- **Deployment:** Vercel
 
 ## 🔗 Links
 
-- [OrbId Wallet App](https://worldcoin.org/mini-app?app_id=app_63712013adb7fb3e851b2260c6571ba6)
-- [World Chain](https://worldchain.dev)
+- [OrbId Wallet App](https://worldcoin.org/mini-app?app_id=app_920c1c9a0cb3aaa68e626f54c09f3cf9)
+- [World Chain](https://world.org/world-chain)
 - [OrbId Organization](https://github.com/orbidorg)
 
 ---
 
 <div align="center">
 
-Made with 💜 by [OrbId Labs](https://orbidwallet.com)
+Built with ❤️ for the World Chain Ecosystem by [OrbId Labs](https://orbidwallet.com)
 
 </div>
